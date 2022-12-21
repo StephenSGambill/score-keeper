@@ -1,0 +1,25 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <p id="homeScore" class="score">0</p>
+                <button class="button" id="homePlusOne" onclick=hPlusOne()>+1</button>              <button class="button" id="homePlusTwo" onclick=hPlusTwo()>+2</button>
+                <button class="button" id="homePlusThree" onclick=hPlusThree()>+3</button>
+            </div>
+            
+            <div>
+                <h3>GUEST</h3>
+                <p id="guestScore" class="score">0</p>
+                <button class="button" id="guestPlusOne" onclick=gPlusOne()>+1</button>              <button class="button" id="guestPlusTwo" onclick=gPlusTwo()>+2</button>
+                <button class="button" id="guestPlusThree" onclick=gPlusThree()>+3</button>
+            </div>
+        </div>
+        <button = class="button" id="clearButton" onclick=clearScore()>Clear Score</button>
+        <script src="index.js"></script>
+    </body>
+</html>
